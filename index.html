@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prestadores - Fonasa</title>
+    <!-- Jesús Alberto AV -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <div id="navbar-lp" class="fixed-top">
+        <nav class="navbar navbar-light mx-auto p-0 h-100 col-12 col-md-8 col-lg-8 col-xl-6">
+            <img id="logo-gobierno" src="assets/images/logo-gobierno.png" class="img-fluid h-100 mr-1 mr-md-3" alt="Gobierno de Chile">
+            <a class="navbar-brand ml-2 mr-0" href="https://www.fonasa.cl">
+                <img id="logo-fonasa" src="assets/images/logo-fonasa.png" class="img-fluid" alt="Fonasa">
+            </a>
+            <img id="logo-prestadores" class="img-fluid ml-auto mr-1 mr-md-2 mr-lg-3" src="assets/images/icon-prestadores.png" alt="Prestadores" >
+            <div class="navbar-toggler border-0 d-flex justify-content-center" data-toggle="collapse" data-target=""
+                aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div id="navbar-menu" class="w-100 mx-auto collapse col-12 col-md-8 col-lg-8 col-xl-6 p-0" >
+            <ul class="nav justify-content-center bg-orange position-absolute w-100">
+                <li class="nav-item d-md-none">
+                    <a id="btn-nav-nuevo" class="nav-link text-white" href="#btn-nuevo">Nuevo Modelo</a>
+                </li>
+                <li class="nav-item">
+                    <a id="btn-nav-bene" class="nav-link text-white" href="#btn-beneficios">Beneficios</a>
+                </li>
+                <li class="nav-item">
+                    <a id="btn-nav-front" class="nav-link text-white" href="#btn-front">Front Integrado</a>
+                </li>
+                <li class="nav-item">
+                    <a id="btn-nav-docu" class="nav-link text-white" href="#div-docu-info">Documentaci&oacute;n</a>
+                </li>
+                <li class="nav-item">
+                    <a id="btn-nav-cont" class="nav-link text-white" href="preguntas.html">Preguntas</a>
+                </li>
+                <li class="nav-item">
+                    <a id="btn-nav-cont" class="nav-link text-white" href="#footer-lp">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="velo" class="h-100 w-100 d-none fade">
+    </div>
+    <div id="content-lp" class="h-100">
+        <div id="content-nuevo" class="bg-image">
+            <div id="img-mobile" class="d-block d-md-none">
+                <img class="img-fluid ml-3" src="assets/images/modelo2.png" alt="Modelo">
+            </div>
+            <div class="container p-0 pt-lg-4 my-3 mt-lg-5 col-11 col-md-8 col-lg-8 col-xl-6">
+                <a id="btn-nuevo" href="#menu-nuevo" class="d-flex justify-content-between align-items-center collapsed d-md-none btn-menu animated bounceInDown">
+                    Nuevo Modelo de Atenci&oacute;n
+                    <img class="img-fluid arrow-menu" src="assets/images/arrow-menu.png" alt="Flecha">
+                </a>
+                <div id="menu-nuevo" class="col-12 d-md-flex p-3 p-md-0 collapse menu-detalles" role="tabpanel">
+                    <div class="col-12 col-md-8 px-0 pr-md-4">
+                        <img id="modelo" src="assets/images/modelo.png" class="img-fluid position-absolute d-none d-md-block animated bounceInUp" alt="Modelo">
+                        <h1 class="d-none d-md-block mb-0 animated bounceIn">NUEVO MODELO</h1>
+                        <h1 class="d-none d-md-block animated bounceIn">DE ATENCI&Oacute;N</h1>
+                        <p class="animated bounceInDown">
+                            Fonasa moderniz&oacute; su modelo de atenci&oacute;n a trav&eacute;s de una plataforma digital llamada
+                            <strong>Front del Prestador MLE</strong>, que entrega m&uacute;ltiples beneficios a todos los Prestadores 
+                            en convenio con Fonasa a trav&eacute;s de la Modalidad Libre Elecci&oacute;n (MLE).
+                        </p>
+                        <img id="touch" src="assets/images/touch.png" class="img-fluid position-absolute d-none d-md-block" alt="Touch">
+                        <div id="nuevo-icons" class="animated bounceInUp">
+                            <img class="img-fluid" src="assets/images/nuevo-icon1.png" alt="F&aacute;cil">
+                            <img id="nuevo-icon2" class="img-fluid" src="assets/images/nuevo-icon2.png" alt="Oportuno">
+                            <img class="img-fluid ml-md-2" src="assets/images/nuevo-icon3.png" alt="Eficiente">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content-btn-menus">
+            <div class="container col-11 col-md-8 col-lg-8 col-xl-6 mx-auto">
+                <div class="row justify-content-center">
+                    <div class="col-12 col-md-6 pl-0 pr-0 pr-md-2 mt-0">
+                        <a id="btn-beneficios" href="#menu-beneficios" class="d-flex justify-content-between align-items-center collapsed btn-menu animated bounceInLeft">
+                            Beneficios
+                            <img class="img-fluid arrow-menu" src="assets/images/arrow-menu.png" alt="Flecha">
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 pr-0 pl-0 pl-md-2 mt-3 mt-md-0 order-2 order-md-1">
+                        <a id="btn-front" href="#menu-front" class="d-flex justify-content-between align-items-center collapsed btn-menu animated bounceInRight">
+                            Front Integrado
+                            <img class="img-fluid arrow-menu" src="assets/images/arrow-menu.png" alt="Flecha">
+                        </a>
+                    </div>
+                    <div id="menu-beneficios" class="col-12 mt-md-3 px-1 p-md-3 order-1 order-md-2 collapse menu-detalles">
+                        <h4 class="d-none d-md-block">BENEFICIOS QUE ENTREGA EL NUEVO MODELO DE ATENCI&Oacute;N:</h4>
+                        <div id="carousel-beneficios" class="carousel slide text-center mt-3 mt-md-4 mx-auto" data-ride="carousel">
+                            <div class="carousel-inner" role="listbox">
+                                <div class="carousel-item active">
+                                    <div class="d-md-flex">
+                                        <div class="col-12 col-md-6 d-md-flex align-items-center pr-md-4 border-right-orange">
+                                            <img src="assets/images/bene-icon1.png" class="img-fluid mr-md-3 bene-icon" alt="Lista">
+                                            <p class="my-3">Al utilizar el Front Prestadores MLE, <strong>se elimina el proceso de liquidaci&oacute;n y las Cuentas M&eacute;dicas emitidas por esa v&iacute;a</strong>,
+                                            se activan y liquidan de forma autom&aacute;tica al final de d&iacute;a.</p>
+                                        </div>
+                                        <div class="col-12 col-md-6 d-md-flex align-items-center pl-md-4 d-none">
+                                            <img src="assets/images/bene-icon2.png" class="img-fluid mr-md-3 bene-icon" alt="Tarjeta">
+                                            <p class="my-3">El dinero por concepto de Aporte en Fonasa, se transfiere diariamente, por lo que <strong>el Prestador tendr&aacute; liquidez inmediata.</strong></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-md-flex">
+                                        <div class="col-12 col-md-6 d-md-flex align-items-center pr-md-4 border-right-orange">
+                                            <img src="assets/images/bene-icon3.png" class="img-fluid mr-md-3 bene-icon" alt="Reloj">
+                                            <p class="my-3">El copago de los Pacientes <strong>se recauda de manera directa</strong>.</p>
+                                        </div>
+                                        <div class="col-12 col-md-6 d-md-flex align-items-center pl-md-4 d-none">
+                                            <img src="assets/images/bene-icon4.png" class="img-fluid mr-md-3 bene-icon" alt="Empleado">
+                                            <p class="my-3">Para quienes utilizan el bono el electr&oacute;nico, <strong>el proceso se mantiene sin variaciones</strong>.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class="d-md-flex">
+                                        <div class="col-12 col-md-6 d-md-flex align-items-center pr-md-4 border-right-orange">
+                                            <img src="assets/images/bene-icon5.png" class="img-fluid mr-md-3 bene-icon" alt="Reloj">
+                                            <p class="my-3">Los Prestadores pueden activar los folios de los comprobantes de pago de entes <strong>recaudadores externos como: CajaVecina,
+                                            Sencillito, Multicaja</strong>.</p>
+                                        </div>
+                                        <div class="col-12 col-md-6 d-md-flex align-items-center pl-md-4 d-none">
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="carousel-mobile d-md-none">
+                                    <div class="col-12">
+                                        <img src="assets/images/bene-icon2.png" class="img-fluid bene-icon" alt="Tarjeta">
+                                        <p class="my-3">El dinero por concepto de Aporte en Fonasa, se realiza diariamente, por lo que <strong>el Prestador tendr&aacute; liquidez inmediata.</strong></p>
+                                    </div>
+                                </div>
+                                <div class="carousel-mobile d-md-none">
+                                    <div class="col-12">
+                                        <img src="assets/images/bene-icon4.png" class="img-fluid bene-icon" alt="Empleado">
+                                        <p class="my-3">Para quienes utilizan el bono el electr&oacute;nico, <strong>el proceso se mantiene sin variaciones</strong>.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carousel-beneficios" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Anterior</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel-beneficios" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Siguiente</span>
+                            </a>
+                        </div>
+                        <p class="p-2 mb-mb-0">
+                            <strong>RECUERDE:</strong>
+                            <br>
+                            <strong>Desde ahora se elimina el proceso de liquidaci&oacute;n</strong>
+                            <br> Si Ud. Emite la Cuenta M&eacute;dica, se activa y liquida de manera autom&aacute;tica al final del d&iacute;a. En el
+                            caso de los bonos y programas con entes recaudadores externos (CajaVecina, Sencillito o Multicaja), s&oacute;lo debe
+                            activarlos y pasar&aacute;n autom&aacute;ticamente a la liquidaci&oacute;n diaria.
+                        </p>
+                    </div>
+                    <div id="menu-front" class="mt-md-3 px-2 py-3 p-md-3 order-3 collapse menu-detalles">
+                        <div class="row">
+                            <div class="col-12 col-md-7">
+                                <h4 class="d-none d-md-block">¿QU&Eacute; ES EL FRONT INTEGRADO?</h4>
+                                <p>
+                                    Es una plataforma o soporte web gratuito, que permite realizar distintos tr&aacute;mites de forma: f&aacute;cil, r&aacute;pida y lo m&aacute;s importante,
+                                    en un solo sitio.
+                                </p>
+                            </div>
+                            <div id="div-video" class="col-12 col-md-5 d-flex justify-content-center">
+                                <div class="embed-responsive embed-responsive-16by9">
+                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CypvSkV3O8Q" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <a id="btn-submenu1" href="#submenu1" class="d-flex justify-content-between align-items-center px-3 w-100 my-3 py-1 btn-submenu">
+                                ¿C&oacute;mo ingresar?
+                                <span class="arrow-submenu"></span>
+                            </a>
+                            <div id="submenu1" class="collapse px-3 submenu-detalles">
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <p>
+                                            <strong>1.</strong> A trav&eacute;s de <strong><a href="https:// www.fonasa.cl" class="color-orange2">www.fonasa.cl</a></strong>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <strong>2.</strong> Debe hacer clic en la pestaña Prestadores.
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <strong>3.</strong> Entrara a <strong>Mi Fonasa</strong> y elegir entre las opciones: Prestadores Naturales o Prestadores Jur&iacute;dicos.
+                                        </p>
+                                    </li>
+                                </ul>
+                                <p class="mb-0">
+                                    Este soporte utiliza una p&aacute;gina segura, con clave &uacute;nica para cada Prestador.
+                                </p>
+                            </div>
+                            <a id="btn-submenu2" href="#submenu2" class="d-flex justify-content-between align-items-center px-3 w-100 my-3 py-1 btn-submenu">
+                                ¿Qu&eacute; puedo hacer?
+                                <span class="arrow-submenu"></span>
+                            </a>
+                            <div id="submenu2" class="collapse px-3 submenu-detalles">
+                                <p> 
+                                     Permite la generaci&oacute;n y valorizaci&oacute;n de Cuentas M&eacute;dicas (bonos y programas m&eacute;dicos), ingresando:
+                                </p>
+                                <ul>
+                                    <li>
+                                        <p>
+                                            RUN del Paciente
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                             C&oacute;digo de prestaciones (consulta, procedimientos o ex&aacute;menes)
+                                        </p>
+                                    </li>
+                                </ul>
+                                <p>
+                                    <strong>¿QU&Eacute; TR&Aacute;MITES PUEDE HACER DESDE LA NUEVA PLATAFORMA?</strong>
+                                </p>
+                                <div id="carousel-front-1" class="carousel slide text-center mt-3 mb-md-0 mt-md-2 mx-auto carousel-front" data-ride="carousel">
+                                    <div class="carousel-inner mx-auto" role="listbox">
+                                        <div class="carousel-item active">
+                                            <div class="d-md-flex">
+                                                <div class="col-12 col-md-6 text-center border-right-orange">
+                                                    <img src="assets/images/front-icon1.png" class="img-fluid bene-icon" alt="Actualizaci&oacute;n">
+                                                    <p class="my-3">Actualizaci&oacute;n y Renuncia</p>
+                                                </div>
+                                                <div class="col-12 col-md-6 text-center d-none d-md-block">
+                                                    <img src="assets/images/front-icon2.png" class="img-fluid bene-icon" alt="Generaci&oacute;n">
+                                                    <p class="my-3">Generaci&oacute;n y valorizaci&oacute;n de Cuentas M&eacute;dicas</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="d-md-flex">
+                                                <div class="col-12 col-md-6 text-center border-right-orange">
+                                                    <img src="assets/images/front-icon3.png" class="img-fluid bene-icon" alt="Emisi&oacute;n">
+                                                    <p class="my-3">Emisi&oacute;n de Cartolas y Certificados</p>
+                                                </div>
+                                                <div class="col-12 col-md-6 text-center d-none d-md-block">
+                                                    <img src="assets/images/front-icon4.png" class="img-fluid bene-icon" alt="Efectuar">
+                                                    <p class="my-3">Efectuar Consultas Previsionales</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="d-md-flex">
+                                                <div class="col-12 col-md-6 text-center border-right-orange">
+                                                    <img src="assets/images/front-icon5.png" class="img-fluid bene-icon" alt="Acceso">
+                                                    <p class="my-3">Acceso al Servidor Terminol&oacute;gico</p>
+                                                </div>
+                                                <div class="col-12 col-md-6 text-center d-none d-md-block">
+                                                    <img src="assets/images/front-icon6.png" class="img-fluid bene-icon" alt="Generaci&oacute;n">
+                                                    <p class="my-3">Generaci&oacute;n de Reporte</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-item">
+                                            <div class="d-md-flex">
+                                                <div class="col-12 d-md-flex align-items-center justify-content-center text-center">
+                                                    <img id="icon-pregunta" src="assets/images/front-icon7.png" class="img-fluid bene-icon mr-0 mr-md-3" alt="Preguntas">
+                                                    <p class="my-3">Ingrese <strong><a href="preguntas.html" class="color-orange2">aqu&iacute;</a></strong>  y conozca todas las preguntas frecuentes</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-mobile d-md-none">
+                                            <div class="col-12">
+                                                <img src="assets/images/front-icon2.png" class="img-fluid bene-icon" alt="Generaci&oacute;n">
+                                                <p class="my-3">Generaci&oacute;n y valorizaci&oacute;n de Cuentas M&eacute;dicas</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-mobile d-md-none">
+                                            <div class="col-12">
+                                                <img src="assets/images/front-icon4.png" class="img-fluid bene-icon" alt="Efectuar">
+                                                <p class="my-3">Efectuar Consultas Previsionales</p>
+                                            </div>
+                                        </div>
+                                        <div class="carousel-mobile d-md-none">
+                                            <div class="col-12">
+                                                <img src="assets/images/front-icon6.png" class="img-fluid bene-icon" alt="Generaci&oacute;n">
+                                                    <p class="my-3">Generaci&oacute;n de Reporte</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carousel-front-1" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Anterior</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carousel-front-1" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Siguiente</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <a id="btn-submenu3" href="#submenu3" class="d-flex justify-content-between align-items-center px-3 w-100 my-3 py-1 btn-submenu">
+                                VIDEOS
+                                <span class="arrow-submenu"></span>
+                            </a>
+                            <div id="submenu3" class="row collapse p-md-3 submenu-detalles">
+                                <div class="col-12 col-md-4 d-none d-md-flex justify-content-center">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CypvSkV3O8Q" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 d-none d-md-flex justify-content-center">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CypvSkV3O8Q" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 d-none d-md-flex justify-content-center">
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CypvSkV3O8Q" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="col-11 mx-auto d-md-none">
+                                    <div id="carousel-front-2" class="carousel slide carousel-front" data-ride="carousel">
+                                        <div class="carousel-inner mx-auto" role="listbox">
+                                            <div class="carousel-item active">
+                                                <div class="embed-responsive embed-responsive-16by9">
+                                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CypvSkV3O8Q" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="embed-responsive embed-responsive-16by9">
+                                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CypvSkV3O8Q" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                            <div class="carousel-item">
+                                                <div class="embed-responsive embed-responsive-16by9">
+                                                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/CypvSkV3O8Q" allowfullscreen></iframe>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#carousel-front-2" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Siguiente</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#carousel-front-2" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Anterior</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content-document" class="col-12 p-md-0 my-3 animated bounceInUp">
+            <a id="btn-doc" href="#menu-doc" class="mt-4 d-flex justify-content-between align-items-center collapsed d-md-none btn-menu">
+                Documentaci&oacute;n
+                <img class="img-fluid arrow-menu" src="assets/images/arrow-menu.png" alt="Flecha">
+            </a>
+            <svg class="position-absolute d-none d-md-block" width="99%" height="100%">
+                <rect id="svg-rect" x="25.4%" y="1" rx="15" ry="15" width="50%" height="98%" />
+                </rect>
+            <svg>
+            <div id="menu-doc" class="col-12 col-md-8 col-lg-8 col-xl-6 d-md-flex mx-auto align-items-center p-0 collapse menu-detalles">
+                <div id="div-docu-icon" class="bg-orange m-0 d-none d-md-block">
+                    <img id="docu-icon" class="img-fluid" src="assets/images/docu-icon1.png" alt="Documentaci&oacute;n">
+                </div>
+                <div id="div-docu-info">
+                    <h4 class="d-none d-md-block mb-0">DOCUMENTACI&Oacute;N</h4>
+                    <p class="mb-0">
+                        Accede a la documentaci&oacute;n oficial de
+                        <strong>Fonasa</strong> para nuestra red de
+                        <strong>Prestadores</strong> en convenio:
+                        <ul class="nav justify-content-center">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link pl-md-0">> Resoluci&oacute;n Nro.</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">> Resoluci&oacute;n Nro.</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">> Resoluci&oacute;n Nro.</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">> Resoluci&oacute;n Nro.</a>
+                            </li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="footer-lp">
+            <div class="col-12 p-0">
+                <div id="footer-header" class="col-12 col-md-8 col-lg-8 col-xl-6 p-0 d-flex mx-auto">
+                    <img id="lineas-gobierno" src="assets/images/lineas-gobierno.png" class="img-fluid mr-auto mt-auto" alt="Gobierno de Chile">
+                    <div id="footer-conoce" class="text-center bg-orange mx-auto p-0">
+                        <h6 class="text-white pt-2 mb-0">CONOCE M&Aacute;S EN:</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 p-0 bg-orange">
+                <div class="col-11 col-md-8 col-lg-8 col-xl-6 d-flex align-items-center py-2 pt-lg-4 pb-lg-3 mx-auto px-0">
+                    <a class="p-0 m-0" href="https://www.fonasa.cl">
+                        <img id="logo-fonasa2" src="assets/images/logo-fonasa2.png" class="img-fluid" alt="Fonasa">
+                    </a>
+                    <div class="ml-auto d-flex justify-content-center align-items-center mx-auto">
+                        <a class="footer-link" href="tel: 600 360 3000">
+                            <img class="img-fluid" src="assets/images/footer-icon1.png" alt="Tel&eacute;fono"> 
+                            600 360 3000
+                        </a>
+                        <a class="footer-link mx-2" href="https://www.fonasa.cl">
+                            <img class="img-fluid" src="assets/images/footer-icon2.png" alt="Sitio Web"> 
+                            www.fonasa.cl
+                        </a>
+                        <a class="footer-link" href="https://es-la.facebook.com/FonasaChile/">
+                            <img class="img-fluid" src="assets/images/footer-icon3.png" alt="Facebook"> 
+                            Fonasa Chile
+                        </a>
+                        <a class="footer-link mx-2" href="https://twitter.com/ayudafonasa">
+                            <img class="img-fluid" src="assets/images/footer-icon4.png" alt="Twitter"> 
+                            @AyudaFonasa
+                        </a>
+                        <a class="footer-link" href="https://twitter.com/fonasa">
+                            <img class="img-fluid" src="assets/images/footer-icon4.png" alt="Twitter"> 
+                            @Fonasa
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="assets/script.js "></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-24745595-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-24745595-1');
+    </script>
+</html>

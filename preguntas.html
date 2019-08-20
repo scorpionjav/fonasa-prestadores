@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Prestadores - Fonasa</title>
+    <!-- Jesús Alberto AV -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body id="body-preguntas">
+    <div id="navbar-lp" class="fixed-top">
+        <nav class="navbar navbar-light mx-md-auto p-0 h-100 col-12 col-md-8 col-lg-8 col-xl-6">
+            <img id="logo-gobierno" src="assets/images/logo-gobierno.png" class="img-fluid h-100 mr-1 mr-md-3" alt="Gobierno de Chile">
+            <a class="navbar-brand ml-2 mr-0" href="https://www.fonasa.cl">
+                <img id="logo-fonasa" src="assets/images/logo-fonasa.png" class="img-fluid" alt="Fonasa">
+            </a>
+            <img id="logo-prestadores" class="img-fluid ml-auto mr-1 mr-md-2 mr-lg-3" src="assets/images/icon-prestadores.png" alt="Prestadores">
+            <div class="navbar-toggler border-0 d-flex justify-content-center" data-toggle="collapse" data-target=""
+                aria-controls="" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div id="navbar-menu" class="w-100 mx-auto collapse col-12 col-md-8 col-lg-8 col-xl-6 p-0">
+            <ul class="nav justify-content-center bg-orange position-absolute w-100">
+                <li class="nav-item d-md-none">
+                    <a id="btn-nav-nuevo" class="nav-link text-white" href="index.html" onclick="btnNavMenu.click();">Nuevo Modelo</a>
+                </li>
+                <li class="nav-item">
+                    <a id="btn-nav-bene" class="nav-link text-white" href="index.html" onclick="btnNavMenu.click();">Beneficios</a>
+                </li>
+                <li class="nav-item">
+                    <a id="btn-nav-front" class="nav-link text-white" href="index.html" onclick="btnNavMenu.click();">Front Integrado</a>
+                </li>
+                <li class="nav-item">
+                    <a id="btn-nav-docu" class="nav-link text-white" href="index.html" onclick="btnNavMenu.click();">Documentaci&oacute;n</a>
+                </li>
+                <li class="nav-item">
+                    <a id="btn-nav-cont" class="nav-link text-white" hrefindex.html" onclick="btnNavMenu.click();">Preguntas</a>
+                </li>
+                <li class="nav-item">
+                    <a id="btn-nav-cont" class="nav-link text-white" href="#footer-lp" onclick="btnNavMenu.click();">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="velo" class="h-100 w-100 d-none fade">
+    </div>
+    <div id="content-lp" class="h-100">
+        <div id="content-nuevo" class="bg-image">
+            <div id="img-mobile" class="d-block d-md-none">
+                <img class="img-fluid ml-3" src="assets/images/modelo2.png" alt="Modelo">
+            </div>
+            <div class="container p-0 pt-lg-4 mt-2 mb-3 mt-md-3 mt-lg-5 col-11 col-md-8 col-lg-8 col-xl-6">
+                <a id="btn-nuevo" href="#menu-nuevo" class="d-flex justify-content-between align-items-center collapsed d-md-none btn-menu animated bounceInDown">
+                    Nuevo Modelo de Atenci&oacute;n
+                    <img class="img-fluid arrow-menu" src="assets/images/arrow-menu.png" alt="Flecha">
+                </a>
+                <div id="menu-nuevo" class="col-12 d-md-flex p-3 p-md-0 collapse menu-detalles">
+                    <div class="col-12 col-md-8 px-0 pr-md-4">
+                        <img id="modelo" src="assets/images/modelo.png" class="img-fluid position-absolute d-none d-md-block animated bounceInUp" alt="Modelo">
+                        <h1 class="d-none d-md-block mb-0 animated bounceIn">NUEVO MODELO</h1>
+                        <h1 class="d-none d-md-block animated bounceIn">DE ATENCI&Oacute;N</h1>
+                        <p class="animated bounceInDown">
+                            Fonasa moderniz&oacute; su modelo de atenci&oacute;n a trav&eacute;s de una plataforma digital llamada
+                            <strong>Front del Prestador MLE</strong>, que entrega m&uacute;ltiples beneficios a todos los Prestadores en convenio con Fonasa
+                            a trav&eacute;s de la Modalidad Libre Elecci&oacute;n (MLE).
+                        </p>
+                        <img id="touch" src="assets/images/touch.png" class="img-fluid position-absolute d-none d-md-block" alt="Touch">
+                        <div id="nuevo-icons" class="animated bounceInUp">
+                            <img class="img-fluid" src="assets/images/nuevo-icon1.png" alt="F&aacute;cil">
+                            <img id="nuevo-icon2" class="img-fluid" src="assets/images/nuevo-icon2.png" alt="Oportuno">
+                            <img class="img-fluid ml-md-2" src="assets/images/nuevo-icon3.png" alt="Eficiente">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="content-btn-menus" class="show pb-0 animated bounceInUp">
+            <div class="container col-12 col-md-8 col-lg-8 col-xl-6 mx-auto">
+                <div class="row justify-content-center mx-0 p-0">
+                    <div class="col-12 mt-2 mt-0 p-0">
+                        <a id="header-preguntas" class="d-flex justify-content-center align-items-center">
+                            <p class="mb-0">
+                                <strong>
+                                        Preguntas Frecuentes
+                                </strong>
+                            </p>
+                        </a>
+                    </div>
+                    <div id="content-preguntas" class="col-12 px-3 mb-2 bg-orange-light">
+                        <div>
+                            <a id="btn-submenu1" href="#submenu1" class="d-flex justify-content-between align-items-center px-3 w-100 mt-3 mb-2 py-1 btn-submenu btn-titulo">
+                                I. Facturaci&oacute;n
+                                <span class="arrow-submenu"></span>
+                            </a>
+                            <div id="submenu1" class="collapse p-3 submenu-detalles">
+                                <a id="pregunta1-1" href="#respuesta1-1" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta">
+                                    1.- ¿C&oacute;mo se realiza el Proceso de Generaci&oacute;n del Documento Tributario?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta1-1" class="collapse respuesta">
+                                    <p>
+                                        El <strong>Documento Tributario</strong> se realiza seg&uacute;n la categor&iacute;a que tienes como prestador:
+                                    </p>
+                                    <ul class="mb-0">
+                                        <li>
+                                            <p>
+                                                <strong>Prestador de primera categor&iacute;a:</strong> Prestador deber&aacute; confeccionar facturas o boletas exentas de acuerdo a
+                                                notificaci&oacute;n diaria, con el monto que FONASA informe a trav&eacute;s de correo electr&oacute;nica.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <strong>Prestador de segunda categor&iacute;a:</strong> Prestador no tiene que hacer llegar nada a FONASA, sus pagos estar&aacute;n
+                                                disponibles en m&aacute;ximo 5 d&iacute;as.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a id="pregunta1-2" href="#respuesta1-2" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     2.- ¿Cu&aacute;les son las diferencias entre primera y segunda categor&iacute;a?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta1-2" class="collapse respuesta">
+                                    <p>
+                                        Los contribuyentes se clasificar&aacute;n tributariamente en Primera o Segunda Categor&iacute;a de acuerdo al tipo de rentas o ingresos
+                                        que obtengan, pues &eacute;stas son las que identifica la Ley de la Renta para clasificarlas con esa denominaci&oacute;n, a saber:
+                                    </p>
+                                    <ul class="mb-0">
+                                        <li>
+                                            <p>
+                                                <strong>Primera categor&iacute;a:</strong> De las rentas del capital y de las empresas comerciales, industriales, mineras y otras. (Jur&iacute;dicos)
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <strong>Segunda categor&iacute;a:</strong> De las rentas del trabajo. (Naturales)
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a id="pregunta1-3" href="#respuesta1-3" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     3.- ¿C&oacute;mo reflejo el Pago de los montos ingresados por concepto de copagos?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta1-3" class="collapse respuesta">
+                                    <p>
+                                        Cuando usted emita una cuenta m&eacute;dica recibir&aacute; copago, por tanto, deber&aacute; respaldar estos ingresos ante Servicios Impuesto
+                                        Internos (SII). En decir:
+                                    </p>
+                                    <ul class="mb-0">
+                                        <li>
+                                            <p>
+                                                Si usted es prestador de 1° Categor&iacute;a, deber&aacute; emitir una boleta de servicios o factura exenta a lo menos una vez al mes
+                                                para respaldar sus copagos.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                Si usted es prestador de 2° Categor&iacute;a, deber&aacute; emitir una boleta de honorarios a lo menos una vez al mes para respaldar sus
+                                                copagos.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a id="pregunta1-4" href="#respuesta1-4" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                    4.- Si no recibo correo de cobranza, ¿c&oacute;mo puedo realizar la factura de forma manual (c&oacute;digo)?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta1-4" class="collapse respuesta">
+                                    <p>
+                                        En caso que presente dificultades con el “Aviso autom&aacute;tico de Cobranza”, usted puede generar el Folio ID manualmente de
+                                        la siguiente forma:
+                                        <br>
+                                        <strong>MLE-LP-N&uacute;MERO DE COBRANZA</strong>
+                                        <br>
+                                         Por ejemplo: Si el n&uacute;mero de la cobranza fuese “8111111”, el c&oacute;digo seria “MLE-LP-8111111”
+                                    </p>
+                                </div>
+                                <a id="pregunta1-5" href="#respuesta1-5" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     5.- ¿Cu&aacute;ntas facturas realizo por cobranza?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta1-5" class="collapse respuesta">
+                                    <p>
+                                        Debes realizar una factura por cada c&oacute;digo de referencia enviado por Fonasa.
+                                    </p>
+                                </div>
+                                <a id="pregunta1-6" href="#respuesta1-6" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     6.- ¿Porque mi cobranza est&aacute; pendiente de pago hace m&aacute;s de 5 d&iacute;as h&aacute;biles?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta1-6" class="collapse respuesta">
+                                    <p>
+                                        Si usted es prestador de 1° categor&iacute;a y su cobranza est&aacute; pendiente de pago hace m&aacute;s de 5 d&iacute;as h&aacute;biles, puede ser por los
+                                        siguientes motivos:
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <p>
+                                                La factura no ha sido emitida.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                La factura no ha sido correctamente emitida o recepcionada por los sistemas de pago.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                La factura no tiene los c&oacute;digos de referencias (folio ID), est&aacute; mal ubicado o incompleto.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        Si usted es prestador de 2° categor&iacute;a y su cobranza est&aacute; pendiente de pago hace m&aacute;s de 5 d&iacute;as h&aacute;biles, puede ser por el
+                                        siguiente motivo:
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <p>
+                                                Usted ha activado un bono que el sistema ha rechazado.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        En caso que usted presente dudas con el estado de sus cobranzas puede llamar para obtener m&aacute;s detalles al Call Center (2)
+                                        246 21 88.
+                                    </p>
+                                </div>
+                                <a id="pregunta1-7" href="#respuesta1-7" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     7.- ¿Cu&aacute;les son los datos que debo registrar en el documento tributario?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta1-7" class="collapse respuesta">
+                                    <p>
+                                        Los datos que usted debe registrar en el Documento Tributario, son:
+                                        <br>
+                                        <i>Fondo Nacional de Salud / 61603000-0 / Monjitas N°665, Santiago.</i>
+                                    </p>
+                                </div>
+                                <a id="pregunta1-8" href="#respuesta1-8" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                    8.- Si soy prestador de 2° Categor&iacute;a, ¿La boleta honorario que debo realizar es por el monto total del bono o solo por el
+                                    copago?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta1-8" class="collapse respuesta">
+                                    <p>
+                                        Usted debe emitir una boleta de honorarios electr&oacute;nica por el total del copago, al menos debes ser una vez al mes, seg&uacute;n
+                                        la Resoluci&oacute;n Ex 26/2001. No obstante, si usted desea puede realizar dicha boleta de honorario de manera, diario, semanal
+                                        o mensual.
+                                    </p>
+                                </div>
+                                <a id="pregunta1-9" href="#respuesta1-9" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     9.- ¿Qu&eacute; modalidad de pago existir&aacute;n para recibir mis liquidaciones?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta1-9" class="collapse respuesta">
+                                    <p>
+                                        Existen dos modalidades de pago: Transferencia a cuenta corriente o Vale Vista.
+                                        <br>
+                                    </p>
+                                    <p>
+                                        Si usted desea cambiar su modalidad de pago, favor acceda al siguiente LINK para conocer los documentos que debe enviar:
+                                        <br>
+                                        <strong>
+                                            <a class="color-orange2" href="https://www.fonasa.cl/sites/fonasa/prestadores/cobranzas/bono-tradicional">https://www.fonasa.cl/sites/fonasa/prestadores/cobranzas/bono-tradicional</a>
+                                        </strong>
+                                    </p>
+                                </div>
+                                <a id="pregunta1-10" href="#respuesta1-10" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     10.- ¿C&oacute;mo realizo la factura?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta1-10" class="collapse respuesta">
+                                    <p>
+                                         Si usted como prestador tributa en 1era Categor&iacute;a: Por cada liquidaci&oacute;n informada por Fonasa, al prestador a trav&eacute;s de una
+                                        notificaci&oacute;n por correo electr&oacute;nico, se debe emitir una factura electr&oacute;nica en formato XML y enviar al correo <strong>intercambio@fonasa</strong>.
+                                        Seg&uacute;n lo establecido por SII para las instituciones p&uacute;blicas.
+                                    </p>
+                                </div>
+                                <a id="pregunta1-11" href="#respuesta1-11" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     11.- Si soy prestador de 1°categor&iacute;a. ¿Puedo agrupar m&aacute;s de un Folio ID (c&oacute;digo de referencia) en una factura?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta1-11" class="collapse respuesta">
+                                    <p>
+                                         No, es importante que usted s&oacute;lo realice una factura por cada Folio de referencia, en caso contrario, la factura ser&aacute; rechazada
+                                        y no se proceder&aacute; con el pago.
+                                    </p>
+                                </div>
+                                <a id="pregunta1-12" href="#respuesta1-12" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     12.- ¿En qu&eacute; lugar se ingresa el Folio (ID) de referencia?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta1-12" class="collapse respuesta">
+                                    <p>
+                                         Para la emisi&oacute;n de Factura en la cual se incorporan los c&oacute;digos de referencias. Existen dos opciones:
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <p>
+                                                <strong>Aplicaci&oacute;n Gratuita de Servicios de Impuestos Internos:</strong> En primer lugar usted debe completar los datos de la factura de
+                                                identificaci&oacute;n de emisor y receptor, para luego marcar la opci&oacute;n "referencia" donde se desplegara un men&uacute; de tipo de documento
+                                                en el cual debe seleccionar "Nota de Pedido", una vez realizada esta acci&oacute;n podr&aacute; copiar en los campos de referencias el
+                                                c&oacute;digo enviado a su correo. Luego solo deber&aacute; emitir la factura y enviarla en formato XML a intercambio@fonasa.cl.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <strong>Software Propio de Facturaci&oacute;n:</strong> Todos los aplicativos de facturaci&oacute;n autorizados por SII deben contar con el campo de referencia
+                                                o las caracter&iacute;sticas para desarrollarlo. En este sentido, es fundamental que los campos en el XML sean de la siguiente forma:
+                                            </p>
+                                            <ul>
+                                                <li>
+                                                    <p>
+                                                         N° L&iacute;nea o N° Secuencia.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <strong>Tipo Documento de Referencia:</strong> Identifica el convenio al cual pertenece la Factura electr&oacute;nica.
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <strong>Folio de Referencia:</strong> Definici&oacute;n de ID tipo Cobranza (Bono Electr&oacute;nico: be, Bono web: Bw, Liquidaci&oacute;n Papel: lp).
+                                                    </p>
+                                                </li>
+                                                <li>
+                                                    <p>
+                                                        <strong>Fecha de la Referencia:</strong> Fecha del documento con formato aaaa-mm-dd.
+                                                    </p>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <p>
+                                         Una vez emitida su factura con software propio, deber&aacute; enviarla a Intercambio@fonasa.cl en formato XML y la cobranza proceder&aacute;
+                                        a su pago.
+                                    </p>
+                                </div>
+                            </div>
+                            <a id="btn-submenu2" href="#submenu2" class="d-flex justify-content-between align-items-center px-3 w-100 my-2 py-1 btn-submenu btn-titulo">
+                                II. Cobranza
+                                <span class="arrow-submenu"></span>
+                            </a>
+                            <div id="submenu2" class="collapse p-3 submenu-detalles">
+                                <a id="pregunta2-1" href="#respuesta2-1" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta">
+                                     1.- ¿Qu&eacute; es una cobranza rezagada?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta2-1" class="collapse respuesta">
+                                    <p>
+                                         Son todos los bonos emitidos en una sucursal de Fonasa.
+                                    </p>
+                                    <ul class="mb-0">
+                                        <li>
+                                            <p>
+                                                <strong>Prestador de primera categor&iacute;a:</strong> Prestador deber&aacute; confeccionar facturas o boletas exentas de acuerdo a
+                                                notificaci&oacute;n diaria, con el monto que FONASA informe a trav&eacute;s de correo electr&oacute;nica.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <strong>Prestador de segunda categor&iacute;a:</strong> Prestador no tiene que hacer llegar nada a FONASA, sus pagos estar&aacute;n
+                                                disponibles en m&aacute;ximo 5 d&iacute;as.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <a id="pregunta2-2" href="#respuesta2-2" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     2.- ¿C&oacute;mo funcionar&aacute; el proceso de liquidaci&oacute;n y facturaci&oacute;n de bonos?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta2-2" class="collapse respuesta">
+                                    <p>
+                                         La activaci&oacute;n de los bonos genera la liquidaci&oacute;n inmediata de &eacute;stos <strong>(s&oacute;lo en prestadores naturales)</strong>. Para el caso de prestadores
+                                        jur&iacute;dicos se debe generar la factura correspondiente a cada cobranza que le llegue al correo asignado.
+                                    </p>
+                                </div>
+                                <a id="pregunta2-3" href="#respuesta2-3" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     3.- ¿C&oacute;mo identificar a que correo llega el “Aviso de Cobranza Autom&aacute;tico"?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta2-3" class="collapse respuesta">
+                                    <p>
+                                         El correo debe ser ingresado en <strong>Mantenci&oacute;n de usuario</strong> y ah&iacute; actualizar si quiere que este aviso llegue la cobranza.
+                                    </p>
+                                </div>
+                                <a id="pregunta2-4" href="#respuesta2-4" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     4.- ¿C&oacute;mo se realiza la cobranza de bonos CajaVecina / Sencillito / Web / Multicaja?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta2-4" class="collapse respuesta">
+                                    <p>
+                                         La ruta de acceso es <strong><a href="https://www.FONASA.cl" class="color-orange2">www.FONASA.cl</a></strong>, Prestadores, Servicios en l&iacute;nea, Portal Prestadores MLE (Ex Acceso Bono Web) y luego
+                                        <strong>Activaci&oacute;n de cuenta m&eacute;dica</strong>. Al activarlos, los bonos ingresar&aacute;n autom&aacute;ticamente al proceso de liquidaci&oacute;n.
+                                    </p>
+                                </div>
+                                <a id="pregunta2-5" href="#respuesta2-5" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     5.- ¿Cu&aacute;ntos d&iacute;as se demora el pago de la cobranza?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta2-5" class="collapse respuesta">
+                                    <p>
+                                         Si usted es prestador de <strong>1° Categor&iacute;a</strong>, m&aacute;ximo 5 d&iacute;as h&aacute;biles desde la recepci&oacute;n correcta de la factura.
+                                         <br>
+                                         <br>
+                                         Si usted es prestador de <strong>2° Categor&iacute;a</strong>, m&aacute;ximo 5 d&iacute;as h&aacute;biles desde el recepci&oacute;n del “Aviso Autom&aacute;tico de Cobranza” en su
+                                        correo electr&oacute;nico.
+                                    </p>
+                                </div>
+                                <a id="pregunta2-6" href="#respuesta2-6" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     6.- ¿D&oacute;nde se abonar&aacute; el pago?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta2-6" class="collapse respuesta">
+                                    <p>
+                                         Se abonara en la cuenta asociada al prestador <strong>(Cuenta Vista, CuentaRut o Cuenta Corriente)</strong>, de no tener cuenta se generara
+                                        un vale vista a nombre del m&eacute;dico o sociedad m&eacute;dica, disponible a retiro en cualquier sucursal del Banco BBVA.
+                                    </p>
+                                </div>
+                                <a id="pregunta2-7" href="#respuesta2-7" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     7.- ¿D&oacute;nde ingreso el n&uacute;mero de cuenta corriente?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta2-7" class="collapse respuesta">
+                                    <p>
+                                         Debes ingresar al siguiente link:
+                                         <br>
+                                          <strong><a href="https://www.fonasa.cl/sites/fonasa/prestadores/cobranzas/bono-web" class="color-orange2">https://www.fonasa.cl/sites/fonasa/prestadores/cobranzas/bono-web</a></strong>
+                                          <br>
+                                          y en la pestaña Modificaci&oacute;n
+                                        de modalidad pago debes seguir los pasos y podr&aacute;s realizar tu tr&aacute;mite.
+                                    </p>
+                                </div>
+                                <a id="pregunta2-8" href="#respuesta2-8" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     8.- ¿C&oacute;mo puedo anular una cobranza mal realizada? (Error en la cobranza).
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta2-8" class="collapse respuesta">
+                                    <p>
+                                         S&iacute; el prestador incluye en la cobranza una o m&aacute;s cuentas m&eacute;dicas err&oacute;neas se deber&aacute; solicitar la eliminaci&oacute;n de la cobranza:
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <p>
+                                                 Enviar correo electr&oacute;nico a <strong>Gsoto@fonasa.cl</strong>, <strong>fcontreras@fonasa.cl</strong>, C.C. <strong>kmendez@fonasa.cl</strong> solicitando la eliminaci&oacute;n de
+                                                la cobranza. Esta solicitud corresponde a los casos generados solo en la Regi&oacute;n Metropolitana
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                 <strong>DZ Norte:</strong> Jefe operaciones: Marisela Cruz, <strong>mcruz@fonasa.cl</strong> / Subrogante Cesar Espinoza.
+                                            </p>
+                                            <p class="ml-5">
+                                                <strong>Regiones: desde Arica a Copiap&oacute;</strong>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                 <strong>DZ Centro Norte:</strong> Claudia Berm&uacute;dez, <strong>cbermudez@fonasa.cl</strong> / Subrogante Maria Veronica Vargas, <strong>vvargas@fonasa.cl</strong>.
+                                            </p>
+                                            <p class="ml-5">
+                                                <strong>Regiones: desde La Serena a Valpara&iacute;so</strong>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                 <strong>DZ Centro Sur:</strong> Maria Rebeca Maltes, <strong>mrmaltes@fonasa.cl</strong> / Subrogante Daniel Castillo.
+                                            </p>
+                                            <p class="ml-5">
+                                                <strong>Regiones: desde Talca hasta Concepci&oacute;n</strong>
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                 <strong>DZ Sur:</strong> Liliana Y&aacute;ñez, <strong>lyanez@fonasa.cl</strong> / Subrogante Ariel Covarrubias.
+                                            </p>
+                                            <p class="ml-5">
+                                                <strong>Regiones: De Temuco hasta Punta Arenas</strong>
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <ul class="list-unstyled ml-4">
+                                        <li>
+                                            <p><strong>i.</strong> En el asunto indicar: Eliminar cobranza N° XXXXXX</p>
+                                        </li>
+                                        <li>
+                                            <p><strong>ii.</strong> En el contenido del mail indicar fecha de la cobranza, N° de la cobranza, Rut y nombre del prestador.</p>
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        Estas solicitudes ser&aacute;n enviadas a SONDA y Proinfo para ser procesadas.
+                                        <br>
+                                        <br>
+                                        <strong>Considerar:</strong> Una vez procesada la solicitud las cuentas m&eacute;dicas asociadas a la cobranza quedar&aacute;n activados para que
+                                        el prestador realice las gestiones que necesita por ejemplo anular.
+                                        <br>
+                                        <br>
+                                         Los bonos de la cobranza pasar&aacute;n, autom&aacute;ticamente, al proceso de liquidaci&oacute;n nocturna, si hay alg&uacute;n bono que no tenga que
+                                        liquidarse tambi&eacute;n se debe expresar en el correo que esta cuenta m&eacute;dica debe quedar desactivada.
+                                    </p>
+                                </div>
+                                <a id="pregunta2-9" href="#respuesta2-9" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     9.- Si he cometido error en la emisi&oacute;n / activaci&oacute;n / liquidaci&oacute;n de cuentas m&eacute;dicas ¿C&oacute;mo realizo la devoluci&oacute;n del dinero?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta2-9" class="collapse respuesta">
+                                    <p>
+                                         El prestador debe hacer la devoluci&oacute;n de los pagos realizados por bonos liquidados. Para ello, debe generar un dep&oacute;sito
+                                        por el monto total de los bonos mal emitidos cancelados por Fonasa a la cuenta:
+                                        <br>
+                                        <strong>0504-0099-0100005652 Banco BBVA</strong>
+                                        <br>
+                                        <br>
+                                         Luego, debe enviar un correo a <strong>nmoya@fonasa.cl</strong> con copia a <strong>oayala@fonasa.cl</strong>, indicando la causa de la devoluci&oacute;n, scanner
+                                        del dep&oacute;sito en banco BBVA, copia de los bonos y datos del beneficiario.
+                                    </p>
+                                </div>
+                                <a id="pregunta2-10" href="#respuesta2-10" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     10.- ¿C&oacute;mo cobro los bonos?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta2-10" class="collapse respuesta">
+                                    <ul>
+                                        <li>
+                                            <p>
+                                                <strong>Bonos emitidos a trav&eacute;s del Portal:</strong> Estos bonos al emitirlos quedan, autom&aacute;ticamente, en estado <strong>activados</strong>. Por lo tanto, entrar&aacute;n a un proceso diario de liquidaci&oacute;n.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <strong>Bonos CajaVecina, Sencillito, Web y Multicaja:</strong> Estos bonos deben ser activados en el Portal del Prestador, en la opci&oacute;n Activaci&oacute;n de Cuentas M&eacute;dicas (bonos). Al momento
+                                                de activarlos tambi&eacute;n entrar&aacute;n al proceso diario autom&aacute;tico de liquidaci&oacute;n.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                <strong>Bonos rezagados (Bono papel):</strong> Estos bonos deben ser liquidados en el Portal del Prestador, en la opci&oacute;n Liquidaci&oacute;n de Rezagos, donde podr&aacute; ingresarlos
+                                                uno a uno o cargar un archivo Excel.
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <p>
+                                        <strong>
+                                             Nota: El usuario cuenta en el portal con un manual de usabilidad que contiene el paso a paso de todos los procesos.
+                                        </strong>
+                                    </p>
+                                </div>
+                                <a id="pregunta2-11" href="#respuesta2-11" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     11.- ¿C&oacute;mo puede descargar la Factura en el Formato XML? (S&oacute;lo para la aplicaci&oacute;n gratuita de Servicio de Impuestos Internos)
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta2-11" class="collapse respuesta">
+                                    <p>
+                                         En el caso que el prestador utilice el sistema gratuito del Servicio de Impuesto Internos (SII) se puede acceder a este
+                                        formato a trav&eacute;s de este Link:
+                                        <br>
+                                        <strong>
+                                            <a href="http://www.sii.cl/destacados/factura_electronica/guias_ayuda/reenvio_doc_electronicos.pdf" class="color-orange2">http://www.sii.cl/destacados/factura_electronica/guias_ayuda/reenvio_doc_electronicos.pdf</a>
+                                        </strong>
+                                    </p>
+                                </div>
+                                <a id="pregunta2-12" href="#respuesta2-12" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     12.- Si soy prestador de primera categor&iacute;a, ¿Es necesario que facture todos los d&iacute;as?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta2-12" class="collapse respuesta">
+                                    <p>
+                                         No, usted decidir&aacute; cu&aacute;ndo facturar de acuerdo a su gesti&oacute;n interna. No olvidar por cada cobranza se debe emitir un documento
+                                        tributario. Sin embargo, debe considerar que el dep&oacute;sito efectivo del dinero se hace 5 d&iacute;as h&aacute;biles a partir de la recepci&oacute;n
+                                        correcta de la factura. Por tanto, si usted no env&iacute;a la factura o esta no re&uacute;ne las exigencias del SII, Fonasa no realizar&aacute;
+                                        el proceso de pago.
+                                    </p>
+                                </div>
+                                <a id="pregunta2-13" href="#respuesta2-13" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     13.- ¿C&oacute;mo puedo saber a qu&eacute; correo est&aacute; llegando la notificaci&oacute;n para facturar?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta2-13" class="collapse respuesta">
+                                    <p>
+                                        Para conocer el correo donde se env&iacute;a la informaci&oacute;n de facturaci&oacute;n (Folio de referencia y monto total), usted debe acceder
+                                        al FRONT prestador y dirigirse a "Mantenci&oacute;n usuarios". Ah&iacute; podr&aacute; visualizar los usuarios del FRONT, atribuciones y correos
+                                        que tiene cada uno. Aquel usuario que tenga todas las atribuciones es denominado "Administrador/a" y ser&aacute; su correo el buz&oacute;n
+                                        o receptor de notificaciones.
+                                    </p>
+                                </div>
+                                <a id="pregunta2-14" href="#respuesta2-14" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     14.- ¿Qu&eacute; es el COPAGO recibido por el Prestador?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta2-14" class="collapse respuesta">
+                                    <p>
+                                         Los prestadores de salud inscritos en el Rol de la Modalidad Libre Elecci&oacute;n, que emitan Bonos de Atenci&oacute;n de Salud, recaudar&aacute;n
+                                        directamente del beneficiario el valor correspondiente al aporte del beneficiario denominado "copago".
+                                    </p>
+                                </div>
+                                <a id="pregunta2-15" href="#respuesta2-15" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     15.- ¿C&oacute;mo debo realizar el documento tributario para respaldar los Copagos?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta2-15" class="collapse respuesta">
+                                    <p>
+                                         De acuerdo a la Resoluci&oacute;n exenta N° 6 del 24 de Enero del 2001. El “Monto total prestaciones cobradas” deber&aacute; ser usado
+                                        por el prestador para calcular la base imponible de PPM:
+
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            <p>
+                                                Los profesionales y Sociedades de Profesionales de la 2ª categor&iacute;a de la L.I.R. acogidos a este sistema, deber&aacute;n emitir
+                                                mensualmente una boleta de honorarios por el total de los copagos recibidos en base a los bonos cobrados, la que extender&aacute;n
+                                                a nombre de Fonasa. Estos profesionales deber&aacute;n declarar y pagar por su cuenta como PPM el 10% sobre el valor de estos copagos.
+                                            </p>
+                                        </li>
+                                        <li>
+                                            <p>
+                                                Las Sociedades de Profesionales o empresas que tributan en la 1ª categor&iacute;a de la L.I.R. deber&aacute;n emitir mensualmente a
+                                                Fonasa una boleta o factura indicando en el detalle el monto total correspondiente a los bonos cobrados, representando en
+                                                el mismo documento los bonos recibidos (copagos) directamente por el prestador, resultando la diferencia el valor FAM cobrado
+                                                a Fonasa, es decir, (Monto total prestaciones cobradas) – (Copago percibido de los pacientes) = (Monto a pagar por Fonasa)
+                                            </p>
+                                        </li>
+                                    </ul>
+                                    <p>
+                                         El “Monto total prestaciones cobradas” deber&aacute; ser usado por el prestador para calcular la base imponible de PPM.
+                                    </p>
+                                </div>
+                                <a id="pregunta2-16" href="#respuesta2-16" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     16.- ¿C&oacute;mo respaldan los prestadores de 1era Categor&iacute;a Tributaria el Copago recaudado directamente en su centro, consulta,
+                                    etc.?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta2-16" class="collapse respuesta">
+                                    <p>
+                                         Las Sociedades de Profesionales o empresa que tributan en la Primera Categor&iacute;a de la Ley del Impuesto de Renta deber&aacute;n emitir,
+                                        mensualmente, a nombre de Fonasa una Boleta o Factura indicando en el detalle el monto total correspondiente a los bonos
+                                        cobrados, representando en el mismo documento los bonos recibidos (copagos).
+                                    </p>
+                                </div>
+                                <a id="pregunta2-17" href="#respuesta2-17" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     17.- Para los Prestadores de 2° Categor&iacute;a, ¿c&oacute;mo respaldan el Copago recaudado directamente en su centro, consulta, etc.?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta2-17" class="collapse respuesta">
+                                    <p>
+                                         Los profesionales y sociedades de profesionales de la segunda categor&iacute;a de la Ley del impuesto a la Renta deber&aacute;n emitir,
+                                        mensualmente, a Fonasa una boleta de honorarios por el total de los copagos recibidos. Estos profesionales deber&aacute;n declarar
+                                        y pagar por su cuenta como PPM el 10% sobre el valor de estos copagos. Para fundamental los Ingresos percibidos.
+                                    </p>
+                                </div>
+                                <a id="pregunta2-18" href="#respuesta2-18" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     18.- ¿C&oacute;mo ser&aacute; la emisi&oacute;n de boletas para contribuyentes de segunda categor&iacute;a?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta2-18" class="collapse respuesta">
+                                    <p>
+                                         La tributaci&oacute;n del nuevo modelo se mantiene, es decir, si usted es un prestador de 2da Categor&iacute;as <strong>NO DEBE</strong> realizar Boletas
+                                        Honorarios, ya que Fonasa est&aacute; autorizado a hacer la boleta de honorarios por los pagos que le realice (Res 5856/1998 y 2370/2000).
+                                        Sin embargo, usted deber&aacute; emitir boletas por los copagos recibidos en su consulta, mensualmente, para justificar sus ingresos
+                                        por este conceptos, seg&uacute;n lo dispuesto por el SII (Res. Exenta 06/2001).
+                                    </p>
+                                </div>
+                                <a id="pregunta2-19" href="#respuesta2-19" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     19.- ¿Por qu&eacute; se debe emitir documento tributario por los copago recibidos en el prestador?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta2-19" class="collapse respuesta">
+                                    <p>
+                                         Son para respaldar y justificar sus ingresos o rentas antes posibles fiscalizaciones de Servicios de impuestos Internos
+                                        (SII), lo anterior debido al que copago ingresa directamente en el Prestador.
+                                    </p>
+                                </div>
+                                <a id="pregunta2-20" href="#respuesta2-20" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     20.- ¿C&oacute;mo se realiza la cobranza de los Bonos por IMED?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta2-20" class="collapse respuesta">
+                                    <p>
+                                         El proceso de cobranza se mantiene hasta la fecha, en el caso de alguna modificaci&oacute;n, se enviar&aacute; un comunicado.
+                                    </p>
+                                </div>
+                            </div>
+                            <a id="btn-submenu3" href="#submenu3" class="d-flex justify-content-between align-items-center px-3 w-100 my-2 py-1 btn-submenu btn-titulo">
+                                III. Acceso para Prestadores
+                                <span class="arrow-submenu"></span>
+                            </a>
+                            <div id="submenu3" class="collapse p-3 submenu-detalles">
+                                <a id="pregunta3-1" href="#respuesta3-1" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta">
+                                     1.- ¿C&oacute;mo accedo al portal de prestadores, como prestador natural?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta3-1" class="collapse respuesta">
+                                    <p>
+                                        La ruta de acceso es <strong><a href="https://www.FONASA.cl" class="color-orange2">www.FONASA.cl</a></strong>, Prestadores, Servicios en l&iacute;nea, Portal Prestadores MLE (Ex acceso Bono Web).
+                                    </p>
+                                </div>
+                                <a id="pregunta3-2" href="#respuesta3-2" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     2.- ¿C&oacute;mo obtengo mi clave?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta3-2" class="collapse respuesta">
+                                    <p>
+                                        La clave es gen&eacute;rica, siempre son los primero 5 d&iacute;gitos del Rut del prestador.
+                                    </p>
+                                </div>
+                                <a id="pregunta3-3" href="#respuesta3-3" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     3.- ¿Con qu&eacute; clave accedo?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta3-3" class="collapse respuesta">
+                                    <p>
+                                         S&iacute; Ud. ten&iacute;a clave como prestador bono web debe usar la misma clave. Si no tiene clave debe presionar el bot&oacute;n "inscripci&oacute;n"
+                                        y completar sus datos (RUT y correo), recibir&aacute; autom&aacute;ticamente su clave al correo ingresado, la cual ser&aacute; sus 5 primeros
+                                        d&iacute;gitos de su Rut, si desea puede cambiarla.
+                                    </p>
+                                </div>
+                                <a id="pregunta3-4" href="#respuesta3-4" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     4.- ¿Se me olvido la clave como la recupero?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta3-4" class="collapse respuesta">
+                                    <p>
+                                         Puedes solicitarla al mail <strong>canalprestador@fonasa.cl</strong>.
+                                    </p>
+                                </div>
+                                <a id="pregunta3-5" href="#respuesta3-5" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     5.- Mis pacientes no pueden comprar bono a mi nombre (Psic&oacute;loga)
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta3-5" class="collapse respuesta">
+                                    <p>
+                                         Debe solicitar a <strong>canalprestador@fonasa.cl</strong> la revisi&oacute;n del caso y ser&aacute; derivado (a) al &aacute;rea correspondiente.
+                                    </p>
+                                </div>
+                                <a id="pregunta3-6" href="#respuesta3-6" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     6.- Aparece una direcci&oacute;n distinta a la que tengo, ¿C&oacute;mo se cambia?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta3-6" class="collapse respuesta">
+                                    <p>
+                                         La ruta de acceso es <strong><a href="https://www.FONASA.cl" class="color-orange2">www.FONASA.cl</a></strong>, Prestadores, Servicios en l&iacute;nea y luego Actualizaci&oacute;n de Profesionales de Salud.
+                                    </p>
+                                </div>
+                                <a id="pregunta3-7" href="#respuesta3-7" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     7.- Creaci&oacute;n de perfiles y eliminaci&oacute;n de perfiles.
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta3-7" class="collapse respuesta">
+                                    <p>
+                                         La ruta de acceso es <strong><a href="https://www.FONASA.cl" class="color-orange2">www.FONASA.cl</a></strong>, Prestadores, Servicios en l&iacute;nea, Portal Prestadores MLE (Ex Acceso Bono Web), Mantenci&oacute;n usuario y Crear perfil de acceso
+                                        a la cuenta.
+                                    </p>
+                                </div>
+                                <a id="pregunta3-8" href="#respuesta3-8" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     8.- ¿C&oacute;mo me inscribo como prestador Persona Natural en Fonasa?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta3-8" class="collapse respuesta">
+                                    <p>
+                                        El proceso de inscripci&oacute;n y actualizaci&oacute;n se realiza en el siguiente link:
+                                        <br>
+                                        <strong>
+                                            <a href="https://www.fonasa.cl/sites/fonasa/prestadores/servicios/interior#insc-prestador" class="color-orange2">https://www.fonasa.cl/sites/fonasa/prestadores/servicios/interior#insc-prestador</a>
+                                        </strong>
+                                    </p>
+                                </div>
+                                <a id="pregunta3-9" href="#respuesta3-9" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     9.- ¿C&oacute;mo me inscribo como prestador Entidad en Fonasa?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta3-9" class="collapse respuesta">
+                                    <p>
+                                         El proceso de inscripci&oacute;n y actualizaci&oacute;n se realiza en Sucursales Fonasa, los requisitos los encuentras en el siguiente
+                                        link:
+                                        <br>
+                                        <strong>
+                                            <a href="https://www.fonasa.cl/sites/fonasa/prestadores/convenios/red-privada/inscripcion-actualizacion-convenio-entidades" class="color-orange2">https://www.fonasa.cl/sites/fonasa/prestadores/convenios/red-privada/inscripcion-actualizacion-convenio-entidades</a>
+                                        </strong>
+                                    </p>
+                                </div>
+                                <a id="pregunta3-10" href="#respuesta3-10" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     10.- ¿Cu&aacute;nto tiempo debo esperar para obtener la resoluci&oacute;n de una inscripci&oacute;n?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta3-10" class="collapse respuesta">
+                                    <p>
+                                         El plazo de respuesta es de 20 d&iacute;as h&aacute;biles.
+                                    </p>
+                                </div>
+                                <a id="pregunta3-11" href="#respuesta3-11" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     11.- ¿C&oacute;mo puedo saber en qu&eacute; est&aacute; mi solicitud de inscripci&oacute;n como prestador para Fonasa?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta3-11" class="collapse respuesta">
+                                    <p>
+                                         Como Persona Natural puedes ver el estado donde mismo realizaste la inscripci&oacute;n en l&iacute;nea en
+                                        <br>
+                                        <strong>
+                                            <a href="https://www.fonasa.cl/sites/fonasa/prestadores/servicios/interior#insc-prestador" class="color-orange2">https://www.fonasa.cl/sites/fonasa/prestadores/servicios/interior#insc-prestador</a>
+                                        </strong>
+                                        <br>
+                                        <br>
+                                         Como <strong>entidad</strong> solo a trav&eacute;s de la resoluci&oacute;n que llega a tu correo de contacto indicado al momento de realizar la inscripci&oacute;n.
+                                    </p>
+                                </div>
+                                <a id="pregunta3-12" href="#respuesta3-12" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     12.- No me funciona el link para iniciar el proceso de afiliaci&oacute;n como prestador particular. ¿Qu&eacute; puedo hacer?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta3-12" class="collapse respuesta">
+                                    <p>
+                                         Prueba con Internet Explorer, ya que en algunas ocasiones algunos navegadores no responden a la plataforma.
+                                    </p>
+                                </div>
+                                <a id="pregunta3-13" href="#respuesta3-13" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     13.- ¿D&oacute;nde encuentro los c&oacute;digos para prestaci&oacute;n kin&eacute;sica?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta3-13" class="collapse respuesta">
+                                    <p>
+                                         Los c&oacute;digos de prestaci&oacute;n kin&eacute;sica los puedes encontrar en
+                                        <strong>
+                                            <a href="http://va.fonasa.cl/sv/valoriza.asp" class="color-orange2">http://va.fonasa.cl/sv/valoriza.asp</a>
+                                        </strong>
+                                    </p>
+                                </div>
+                                <a id="pregunta3-14" href="#respuesta3-14" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     14.- ¿A qu&eacute; se refiere el correo de notificaci&oacute;n?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta3-14" class="collapse respuesta">
+                                    <p>
+                                         Te llegara un correo de notificaci&oacute;n una vez que hayas activado una cuenta m&eacute;dica para informarte el monto que te pagar&aacute;
+                                        Fonasa.
+                                    </p>
+                                </div>
+                                <a id="pregunta3-15" href="#respuesta3-15" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     15.- ¿Qu&eacute; beneficios tiene este portal para el prestador?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta3-15" class="collapse respuesta">
+                                    <p>
+                                         Puedes realizar los siguientes servicios a trav&eacute;s del portal: Acceso y transacciones sin costo, Acceso Web, Disponible 24x7,
+                                        Mejora la atenci&oacute;n a sus pacientes, Disminuye costos y tiempos de traslado y Emisi&oacute;n de BAS en su propia consulta.
+                                    </p>
+                                </div>
+                                <a id="pregunta3-16" href="#respuesta3-16" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     16.- ¿Qu&eacute; funcionalidades tiene?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta3-16" class="collapse respuesta">
+                                    <p>
+                                         Emisi&oacute;n cuentas m&eacute;dicas ambulatorias (bonos), Emisi&oacute;n cuentas m&eacute;dicas Hospitalarias (programas m&eacute;dicos), Anulaci&oacute;n cuenta
+                                        m&eacute;dica, Activaci&oacute;n de Bonos Web, CajaVecina, Sencillito y Multicaja, Liquidaci&oacute;n bonos rezagados (bono papel) y Reporter&iacute;a de bonos
+                                        emitidos, activados y cobrados.
+                                    </p>
+                                </div>
+                            </div>
+                            <a id="btn-submenu4" href="#submenu4" class="d-flex justify-content-between align-items-center px-3 w-100 my-2 py-1 btn-submenu btn-titulo">
+                                IV. Cuenta M&eacute;dica
+                                <span class="arrow-submenu"></span>
+                            </a>
+                            <div id="submenu4" class="collapse p-3 submenu-detalles">
+                                <a id="pregunta4-1" href="#respuesta4-1" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta">
+                                     1.- ¿Qu&eacute; es una cuenta m&eacute;dica ambulatoria / hospitalaria?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta4-1" class="collapse respuesta">
+                                    <p>
+                                         La <strong>cuenta m&eacute;dica ambulatoria</strong> hace referencia a atenciones ambulatorias o procedimientos que no requieran pabell&oacute;n. Todos
+                                        los bonos PAD se venden como Cuenta m&eacute;dica ambulatoria. La <strong>cuenta m&eacute;dica hospitalaria</strong> hace referencia a todas las prestaciones
+                                        que requieran una intervenci&oacute;n y el uso de pabell&oacute;n.
+                                    </p>
+                                </div>
+                                <a id="pregunta4-2" href="#respuesta4-2" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     2.- ¿Qu&eacute; es una cuenta m&eacute;dica pre-ingresada?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta4-2" class="collapse respuesta">
+                                    <p>
+                                         Es una cuenta m&eacute;dica hospitalaria que se valorizo previamente.
+                                    </p>
+                                </div>
+                                <a id="pregunta4-3" href="#respuesta4-3" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     3.- ¿C&oacute;mo puedo saber el estado de una cuenta m&eacute;dica?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta4-3" class="collapse respuesta">
+                                    <p>
+                                         La ruta de acceso es <strong><a href="https://www.FONASA.cl" class="color-orange2">www.FONASA.cl</a></strong>, Prestadores, Servicios en l&iacute;nea, Portal Prestadores MLE (Ex Acceso Bono Web) y luego Consulta Folio.
+                                    </p>
+                                </div>
+                                <a id="pregunta4-4" href="#respuesta4-4" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     4.- ¿Cu&aacute;l es el proceso de activaci&oacute;n de bonos?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta4-4" class="collapse respuesta">
+                                    <p>
+                                         Todos los bonos de CajaVecina. Sencillito y Web, deben ser activados en “Activaci&oacute;n de Cuenta M&eacute;dica”.
+                                    </p>
+                                </div>
+                                <a id="pregunta4-5" href="#respuesta4-5" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     5.- Al activar el bono sale un mensaje (bono no corresponde). ¿Qu&eacute; debo hacer?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta4-5" class="collapse respuesta">
+                                    <p>
+                                         Debe revisar las prestaciones aprobadas para las ventas asociadas al prestador.
+                                    </p>
+                                </div>
+                                <a id="pregunta4-6" href="#respuesta4-6" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     6.- ¿C&oacute;mo y cu&aacute;ndo genero una anulaci&oacute;n de cuenta?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta4-6" class="collapse respuesta">
+                                    <p>
+                                         La anulaci&oacute;n de cuenta m&eacute;dica es por el d&iacute;a, es decir, dentro de 2 horas se debe anular la cuenta, si no realizo la anulaci&oacute;n
+                                        dentro de este tiempo debe depositar el copago y FAM cancelados en la cuenta antes mencionada.
+                                    </p>
+                                </div>
+                                <a id="pregunta4-7" href="#respuesta4-7" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     7.- ¿Para qu&eacute; sirve la activaci&oacute;n / desactivaci&oacute;n de cuenta m&eacute;dica?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta4-7" class="collapse respuesta">
+                                    <p>
+                                         Esto es necesario para los bonos CajaVecina, Sencillito, bonos WEB y Multicaja. La desactivaci&oacute;n debe realizar cuando el cajero activa
+                                        el bono y la prestaci&oacute;n asociada no es realizada.
+                                    </p>
+                                </div>
+                                <a id="pregunta4-8" href="#respuesta4-8" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     8.- ¿Cu&aacute;l es el plazo de pago de las cuentas m&eacute;dicas?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta4-8" class="collapse respuesta">
+                                    <p>
+                                         Usted recibir&aacute; el pago a los 5 d&iacute;as h&aacute;biles. Si usted es prestador de primera categor&iacute;a, los d&iacute;as comienzan a contar desde
+                                        la recepci&oacute;n correcta de la factura en Fonasa.
+                                    </p>
+                                </div>
+                                <a id="pregunta4-9" href="#respuesta4-9" class="d-flex justify-content-between align-items-center px-3 w-100 py-1 pregunta mt-2">
+                                     9.- ¿C&oacute;mo puedo obtener un historial del bonos/cuentas que he ingresado al sistema?
+                                    <span class="arrow-submenu"></span>
+                                </a>
+                                <div id="respuesta4-9" class="collapse respuesta">
+                                    <p>
+                                         La ruta de acceso es <strong><a href="https://www.FONASA.cl" class="color-orange2">www.FONASA.cl</a></strong>, Prestadores, Servicios en l&iacute;nea, Portal Prestadores MLE (Ex Acceso Bono Web) y luego
+                                        Cuentas M&eacute;dicas ingresadas y filtrar por las fechas solicitadas.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="footer-lp">
+            <div class="col-12 p-0">
+                <div id="footer-header" class="col-12 col-md-8 col-lg-8 col-xl-6 p-0 d-flex mx-auto">
+                    <img id="lineas-gobierno" src="assets/images/lineas-gobierno.png" class="img-fluid mr-auto mt-auto" alt="Gobierno de Chile">
+                    <div id="footer-conoce" class="text-center bg-orange mx-auto p-0">
+                        <h6 class="text-white pt-2 mb-0">CONOCE M&Aacute;S EN:</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 p-0 bg-orange">
+                <div class="col-11 col-md-8 col-lg-8 col-xl-6 d-flex align-items-center py-2 pt-lg-4 pb-lg-3 mx-auto px-0">
+                    <a class="p-0 m-0" href="https://www.fonasa.cl">
+                        <img id="logo-fonasa2" src="assets/images/logo-fonasa2.png" class="img-fluid" alt="Fonasa">
+                    </a>
+                    <div class="ml-auto d-flex justify-content-center align-items-center mx-auto">
+                        <a class="footer-link" href="tel: 600 360 3000">
+                            <img class="img-fluid" src="assets/images/footer-icon1.png" alt="Tel&eacute;fono">
+                            600 360 3000
+                        </a>
+                        <a class="footer-link mx-2" href="https://www.fonasa.cl">
+                            <img class="img-fluid" src="assets/images/footer-icon2.png" alt="Sitio Web">
+                            www.fonasa.cl
+                        </a>
+                        <a class="footer-link" href="https://es-la.facebook.com/FonasaChile/">
+                            <img class="img-fluid" src="assets/images/footer-icon3.png" alt="Facebook">
+                            Fonasa Chile
+                        </a>
+                        <a class="footer-link mx-2" href="https://twitter.com/ayudafonasa">
+                            <img class="img-fluid" src="assets/images/footer-icon4.png" alt="Twitter">
+                            @AyudaFonasa
+                        </a>
+                        <a class="footer-link" href="https://twitter.com/fonasa">
+                            <img class="img-fluid" src="assets/images/footer-icon4.png" alt="Twitter">
+                            @Fonasa
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+    <script src="assets/script2.js "></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-24745595-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-24745595-1');
+    </script>
+</html>
